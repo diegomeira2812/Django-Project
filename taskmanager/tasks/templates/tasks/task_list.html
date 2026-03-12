@@ -1,0 +1,9 @@
+<h1>Lista de Tarefas</h1>
+
+<ul>
+{% for task in tasks %}
+    <li>
+        {{ task.title }} - {{ task.completed }}
+    </li>
+{% endfor %}
+</ul>
