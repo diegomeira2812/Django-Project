@@ -1,0 +1,21 @@
+2. Sistema de tarefas (tipo Trello simples)
+
+Funcionalidades:
+
+usuários
+
+criação de tarefas
+
+status (pendente, fazendo, concluído)
+
+atribuir tarefa para usuário
+
+prazo
+
+Tecnologias:
+
+Django
+
+autenticação de usuários
+
+CRUD completo
