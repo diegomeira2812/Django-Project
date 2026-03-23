@@ -5,7 +5,15 @@
 <ul>
 {% for task in tasks %}
     <li>
-        {{ task.title }} - {{ task.completed }}
+        {{ task.title }}
+
+        {% if not task.completed %}
+            <a href="/complete/{{ task.id }}/">Concluir</a>
+        {% else %}
+            (Concluída)
+        {% endif %}
+
+        <a href="/delete/{{ task.id }}/">Deletar</a>
     </li>
 {% endfor %}
 </ul>
