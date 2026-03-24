@@ -1,4 +1,8 @@
-<h1>Lista de Tarefas</h1>
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Lista de Tarefas</h2>
 
 <a href="/create/">Criar nova tarefa</a>
 
@@ -13,13 +17,10 @@
             (Concluída)
         {% endif %}
 
-        <a href="/delete/{{ task.id }}/">Deletar</a>
         <a href="/update/{{ task.id }}/">Editar</a>
+        <a href="/delete/{{ task.id }}/">Deletar</a>
     </li>
 {% endfor %}
-
-<form action="/logout/" method="POST">
-    {% csrf_token %}
-    <button type="submit">Logout</button>
-</form>
 </ul>
+
+{% endblock %}

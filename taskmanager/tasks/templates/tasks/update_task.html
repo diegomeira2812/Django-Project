@@ -1,4 +1,8 @@
-<h1>Editar tarefa</h1>
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Editar tarefa</h2>
 
 <form method="POST">
     {% csrf_token %}
@@ -6,4 +10,4 @@
     <button type="submit">Salvar</button>
 </form>
 
-<a href="/">Voltar</a>
+{% endblock %}
