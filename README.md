@@ -27,8 +27,8 @@ git clone https://github.com/diegomeira2812/Django-Project.git
 
 ### 2. Criar ambiente virtual
 
-python -m venv venv
-venv\Scripts\activate
+python -m venv venv  
+venv\Scripts\activate 
 
 ### 3. Instalar dependências
 
@@ -36,8 +36,8 @@ pip install django
 
 ### 4. Rodar migrations
 
-python manage.py makemigrations
-python manage.py migrate
+python manage.py makemigrations  
+python manage.py migrate 
 
 ### 5. Criar superusuario
 
