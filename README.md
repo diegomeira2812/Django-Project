@@ -24,7 +24,6 @@ Sistema web de gerenciamento de tarefas desenvolvido com Django, com autenticaç
 ### 1. Clonar repositório
 
 git clone https://github.com/diegomeira2812/Django-Project.git
-cd Django-Project
 
 ### 2. Criar ambiente virtual
 
