@@ -33,6 +33,7 @@ venv\Scripts\activate
 ### 3. Instalar dependências
 
 pip install django
+pip install djangorestframework
 
 ### 4. Rodar migrations
 
